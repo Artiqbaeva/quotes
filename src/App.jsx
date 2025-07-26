@@ -2,6 +2,7 @@ import React from 'react'
 import QuoteMachine from './QuoteMachine'
 import DrumMachine from './DrumMachine'
 import MarkdownPreviewer from './MarkdownPreviewer'
+import Calculator from './Calculator'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <QuoteMachine/>
       <MarkdownPreviewer/>
       <DrumMachine/>
+      <Calculator/>
     </div>
   )
 }
