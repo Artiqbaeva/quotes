@@ -1,7 +1,7 @@
 import React from 'react'
 import QuoteMachine from './QuoteMachine'
-import MarkdownPreviewer from './MarkDownPreviewer'
 import DrumMachine from './DrumMachine'
+import MarkdownPreviewer from './MarkdownPreviewer'
 
 const App = () => {
   return (
