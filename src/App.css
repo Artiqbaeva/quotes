@@ -1,0 +1,39 @@
+#drum-machine {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #202020;
+  padding: 2rem;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#display {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  background: #333;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.pads-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 1rem;
+  justify-content: center;
+}
+
+.drum-pad {
+  background: #444;
+  padding: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 1.2rem;
+  transition: background 0.2s;
+}
+
+.drum-pad:hover {
+  background: #666;
+}
